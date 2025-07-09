@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:  rgba(165, 19, 170, 0.712);
+    border-radius: 10px;
+    background-clip: content-box;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: IMB Plex sans;
+}
+h1{
+    font-family: IBM Plex sans;
+}
+
+header{
+    display: inline;
+    margin: auto;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 55px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.192);
+}
+
+header nav h2{
+    margin-top: 0px;
+    margin-left: 18px;
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-family: IBM Plex sans;
+    background: linear-gradient(to left, rgba(208, 27, 214, 0.87) 39%, rgb(53, 3, 172) 89%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+nav div {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+nav div a{
+    margin: 0px 15px;
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: bolder;
+    font-family: IBM Plex sans;
+    justify-content: space-between;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+    padding: 100px 250px 50px 250px;
+}
+.about p {
+    text-align: justify;
+}
+
+.about button{
+    display: block;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.699) 3px 3px 13px -1px;
+    margin:auto;
+    
+}
+.about button a{
+    text-decoration: none;
+    background: linear-gradient(to left, rgba(208, 27, 214, 0.87) 39%, rgb(53, 3, 172) 89%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bolder;
+}
+section.about img{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 20px;
+    border-radius: 50%;
+    padding-top: 0px;
+    width: 115%;
+    height: 115%;
+}
+.about div.text-about h1{
+    margin: 0px;
+    font-size: 250%;
+    background: linear-gradient(to left, rgba(208, 27, 214, 0.87) 39%, rgb(53, 3, 172) 89%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.about div.text-about class{
+    background: linear-gradient(to left, rgba(208, 27, 214, 0.87) 39%, rgb(53, 3, 172) 89%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+
+.comp{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to left, rgba(208, 27, 214, 0.87) 39%, rgb(53, 3, 172) 89%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 50px 30px;
+    
+}
+.card{
+    padding: 10px;
+    border-color: black;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 2px solid transparent;
+}
+.card:hover{
+    transform: translateY(-5px);
+    transition: transform 0.2s;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 6px -2px rgba(70, 70, 70, 0.5);
+}
+.card img{
+    width: 50px;
+    height: 50px;
+}
+.card p{
+    max-width: 300px;
+}
+
+.proj{
+    margin: 20px 50px;
+}
+.proj1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+.BC, .CR, .Android{
+    background-color: rgba(128, 128, 128, 0.068);
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    border-radius: 15px;
+    margin: 30px 0px;
+    width: 330px;
+    height: 390px;
+}
+.BC:hover, .CR:hover, .Android:hover{
+    transition: transform 0.2s;
+    transform: translateY(-5px);
+    border: 2px solid transparent;
+    box-shadow: 0 4px 6px -2px rgba(70, 70, 70, 0.5);
+}
+
+.BC img, .CR img, .Android img{
+    width: 330px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.BC h3, .CR h3, .Android h3{
+    text-align: center;
+    margin: 0px;
+}
+.proj1 a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.Github{
+    margin: 8px;
+    padding: 5;
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    width: 190px;
+    background-color: rgba(31, 31, 31, 0.11);
+    border-radius: 10px;
+}
+.Github p{
+    margin: 8px;
+    padding: 5;
+}
+
+.Github:hover{
+    transition: transform 0.2s;
+    transform: translateY(-5px);
+    border: 2px solid transparent;
+    box-shadow: 0 4px 6px -2px rgba(70, 70, 70, 0.5);
+}
