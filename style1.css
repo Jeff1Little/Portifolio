@@ -8,7 +8,6 @@
         align-items: center;
         text-align: center;
     }
-
 }
 @media (max-width: 768px) {
     section.about, section.comp, section.card {
