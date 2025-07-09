@@ -1,5 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
+
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+        padding: 200px 30px 50px;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+@media (max-width: 768px) {
+    section.about, section.comp, section.card {
+        flex-direction: column;
+        padding: 50px 30px 50px;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media (max-width: 1000px) {
+    section.about{
+        flex-direction: column;
+        padding: 50px 30px 50px;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    section.proj {
+        margin: auto;
+        margin-left: 20px;
+        align-items: center;
+        text-align: center;
+    }
+}
+
 ::-webkit-scrollbar{
     width: 10px;
 }
@@ -79,6 +115,7 @@ nav div a{
     padding: 5px;
     box-shadow: rgba(0, 0, 0, 0.699) 3px 3px 13px -1px;
     margin:auto;
+    margin-bottom: 50px;
     
 }
 .about button a{
@@ -95,8 +132,8 @@ section.about img{
     padding: 20px;
     border-radius: 50%;
     padding-top: 0px;
-    width: 115%;
-    height: 115%;
+    width: 300px;
+    height: 300px;
 }
 .about div.text-about h1{
     margin: 0px;
