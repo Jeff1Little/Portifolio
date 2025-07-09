@@ -1,5 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+        padding: 200px 30px 50px;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    section.about, section.comp, section.card {
+        flex-direction: column;
+        padding: 50px 30px 50px;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media (max-width: 1000px) {
+    section.about{
+        flex-direction: column;
+        padding: 50px 30px 50px;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    section.proj {
+        margin: auto;
+        margin-left: 20px;
+        align-items: center;
+        text-align: center;
+    }
+}
 
 
 ::-webkit-scrollbar{
