@@ -51,8 +51,8 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: IMB Plex sans;
-    font-weight: 400;
+    font-family: IBM Plex sans;
+    font-weight: 500;
 }
 h1{
     font-family: IBM Plex sans;
@@ -107,6 +107,7 @@ nav div a{
 }
 .about p {
     text-align: justify;
+    max-width: 300px;
 }
 
 .about button{
